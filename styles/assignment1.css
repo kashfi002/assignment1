@@ -1,0 +1,139 @@
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+header{
+    padding-top: 34px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 120px;
+}
+
+nav .navop ul{
+    display:flex;
+    gap:50px;
+    list-style-type: none;
+}
+nav .navop ul a{
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+}
+nav .button button{
+    background-color: #30B868;
+    color:white;
+    font-size: 16px;
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+}
+nav .logo img{
+    width: 139px;
+    height: 60px;
+}
+#banner{
+    background-image: url(../assets/hero-bg.png);
+    width:1600px;
+    height: 674px;
+    text-align: center;
+    align-items: center;
+}
+#banner .banner-content{
+    padding: 115px 120px;
+    margin: 0 auto;
+}
+#banner .early{
+    font-size: 16px;
+    color:#469165;
+    border-radius: 10px;
+    padding: 8px 12px;
+    border: none;
+}
+.banner-des{
+    width: 1360px;
+    height: 295px;
+}
+.banner-des h1 .struc{
+    color:white;
+    font-size: 3rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.banner-des h1 .b-heading{
+    color:#30B868;
+    font-size: 3rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.heading{
+    display: inline;
+}
+.banner-content p{
+    font-size: 18px;
+    color:white;
+    gap:8px;
+}
+.banner-button .start{
+    background-color: #469165;
+    color:white;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+}
+.banner-button .how{
+    background:none;
+    color:white;
+    border-bottom: 3px;
+     border: solid white 1px;
+     padding: 10px;
+     border-radius: 3px;
+
+}
+.icon-box{
+    width: 70px;
+  height: 70px;
+  background: #ff4d4d;       
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notes{
+    padding-top: 120px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 44px;
+}
+.notes h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.notes p{
+    font-size: 16px;
+    color:#627382;
+}
+#sec3 .card-container{
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    gap:24px;
+}
+#sec3 .card-holder{
+    border: solid red;
+    align-items: center;
+    text-align: center;
+    width: 322px;
+    height: 300px;
+    padding-top: 80px;
+}
+#sec3 .card-holder h3{
+    font-size: 24px;
+    color:black;
+}
+#sec3 .card-holder p{
+    font-size: 16px;
+    color:#627382;
+}
