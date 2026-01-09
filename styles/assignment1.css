@@ -30,7 +30,7 @@ nav .button button{
     border: none;
     border-radius: 5px;
 }
-nav .button button :hover{
+nav .button button:hover{
     cursor: pointer;
 }
 nav .logo img{
