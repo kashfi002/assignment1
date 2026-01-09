@@ -6,6 +6,9 @@
 header{
     padding-top: 34px;
 }
+button {
+  cursor: pointer;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -29,9 +32,6 @@ nav .button button{
     padding: 13px;
     border: none;
     border-radius: 5px;
-}
-nav .button button:hover{
-    cursor: pointer;
 }
 nav .logo img{
     width: 139px;
@@ -59,12 +59,6 @@ nav .logo img{
     width: 1360px;
     height: 295px;
 }
-.start:hover{
-    cursor: pointer;
-}
-.how:hover{
-    cursor: pointer;
-}
 .banner-des h1 .struc{
     color:white;
     font-size: 3rem;
@@ -84,9 +78,6 @@ nav .logo img{
     font-size: 18px;
     color:white;
     gap:8px;
-}
-.btn:hover{
-    cursor: pointer;
 }
 .banner-button .start{
     background-color: #469165;
@@ -139,7 +130,7 @@ nav .logo img{
     align-items: center;
     text-align: center;
     padding: 50px 20px 10px 20px;
-   box-shadow:  4px 12px rgba(0, 0, 0, 0.05);
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 #sec3 .card-holder h3{
     font-size: 24px;
