@@ -122,12 +122,12 @@ nav .logo img{
     gap:24px;
 }
 #sec3 .card-holder{
-    border: solid red;
+    display: flex;
+    flex-direction: column; 
     align-items: center;
     text-align: center;
-    width: 322px;
-    height: 300px;
-    padding-top: 80px;
+    padding: 50px 20px 10px 20px;
+   box-shadow: 0 1px 5px 0;
 }
 #sec3 .card-holder h3{
     font-size: 24px;
@@ -136,4 +136,36 @@ nav .logo img{
 #sec3 .card-holder p{
     font-size: 16px;
     color:#627382;
+}
+#sec4{
+    display: flex;
+    margin: 120px;
+    justify-content: space-between;
+
+}
+#sec4 .solution{
+    padding: 102px 0 102px 60px;
+}
+.any{
+    display:flex;
+    align-items: center;
+    gap:10px
+}
+.any p{
+    font-size: 16px;
+}
+.sol{
+    color:#469165;
+    font-size: 16px;
+}
+.solution h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.solution .per{
+    font-size: 16px;
+    color:#627382;
+}
+.det{
+    margin-top: 40px;
 }
